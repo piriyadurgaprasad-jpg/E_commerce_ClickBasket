@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            box-sizing: border-box;
+            padding: 0px;
+
+        }
+        nav{
+            background: gray;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            gap:10px;
+        }
+        button{
+            height: 50px;
+            width: 100px;
+            margin: auto;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        #div2{
+            border: 2px solid;
+            width: 350px;
+            margin: auto;
+            background-color: whitesmoke;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        h2{
+            text-align: center;
+            font-size: 30px;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            margin: auto;
+            font-size: 15px;
+        }
+        footer{
+            border: 2px solid;
+            height: 50px;
+            background-color: grey;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+        }
+        #btn2{
+            background-color: blue;
+            color: white;
+            margin-left: 70px;
+            border: none;
+            border-radius: 10px;
+        }
+      
+        
+    </style>
+</head>
+<body>
+
+    <nav>
+        <button id="home">Home</button>
+        <button id="login">Login</button>
+        <button id="register">Register</button>
+        <button id="contact">Contact</button>
+        <button id="product">Products</button>
+    </nav>
+    <br><br>
+
+    <div id="div2">
+        <h2>Register page</h2><br>
+        <input type="text" id="name" placeholder="Enter name"><br><br>
+        <input type="text" id="email" placeholder="Enter Email"><br><br>
+        <input type="password" id="psw" placeholder="Password"><br><br>
+        <input type="password" id="confirmpsw" placeholder="Confirm Password"><br><br>
+        <button id="btn2">Register</button>
+    </div>
+    <br><br>
+    <footer>copyright@2026</footer>
+    <script src="./register.js"></script>
+</body>
+</html>

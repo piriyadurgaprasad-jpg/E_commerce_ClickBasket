@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+    <style>
+        body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+h1{
+    margin-top: 30px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    width: 220px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.card img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.card h3{
+    font-size: 22px;
+}
+
+
+.card p{
+    font-size: 16px;
+}
+
+
+#Btn1{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    #Btn2{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Btn3{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Btn4{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Btn5{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Btn6{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+nav{
+            background: gray;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            gap:10px;
+        }
+        button{
+            height: 50px;
+            width: 100px;
+            margin: auto;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bolder;
+        }
+        #div1{
+            border: 2px solid;
+            width: 350px;
+            margin: auto;
+            background-color: whitesmoke;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        h2{
+            text-align: center;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            margin: auto;
+            font-size: 15px;
+        }
+        footer{
+            border: 2px solid;
+            height: 50px;
+            background-color: grey;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+        }
+        #btn1{
+            background-color: blue;
+            color: white;
+            margin-left: 70px;
+            border: none;
+            border-radius: 10px;
+            
+        }
+
+
+.addBtn:hover{
+    background-color: darkblue;
+}
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <button id="home">Home</button>
+        <button id="login">Login</button>
+        <button id="register">Register</button>
+        <button id="contact">Contact</button>
+        <button id="product">Products</button>
+    </nav>
+    <br><br>
+
+<h1>Our Products</h1>
+
+<div class="container">
+
+    <div class="card">
+        <img src="/javascripttask/assests/download.webp" width="150">
+        <h3>Mobile</h3>
+        <p>6GB RAM, 128GB Storage</p>
+        <p>Price: ₹20000</p>
+        <button id="Btn1">Add</button>
+    </div>
+
+
+    <div class="card">
+        <img src="./assests/download (1).webp" width="150">
+        <h3>Laptop</h3>
+        <p>i5 Processor, 8GB RAM</p>
+        <p>Price: ₹50000</p>
+        <button id="Btn2">Add</button>
+    </div>
+
+
+    <div class="card">
+        <img src="./assests/OIP1.jfif" width="150">
+        <h3>Watch</h3>
+        <p>Smart Watch</p>
+        <p>Price: ₹3000</p>
+        <button id="Btn3">Add</button>
+    </div>
+
+
+    <div class="card">
+        <img src="./assests/OIP.webp" width="150">
+        <h3>Headphone</h3>
+        <p>Wireless Headphone</p>
+        <p>Price: ₹2000</p>
+        <button id="Btn4">Add</button>
+    </div>
+
+
+    <div class="card">
+        <img src="./assests/download (3).webp" width="150">
+        <h3>Camera</h3>
+        <p>HD Camera</p>
+        <p>Price: ₹30000</p>
+        <button id="Btn5">Add</button>
+    </div>
+
+
+    <div class="card">
+        <img src="./assests/download (4).webp" width="150">
+        <h3>Tablet</h3>
+        <p>10 inch Display</p>
+        <p>Price: ₹15000</p>
+        <button id="Btn6">Add</button>
+    </div>
+
+</div>
+<br><br>
+<footer>copyright@2026</footer>
+
+
+<script src="./product.js"></script>
+
+</body>
+</html>
